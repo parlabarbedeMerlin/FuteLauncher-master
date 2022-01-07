@@ -35,8 +35,7 @@ public class TopPanel extends Panel {
         GridPane.setHgrow(topBarButton, Priority.ALWAYS);
         GridPane.setVgrow(topBarButton,Priority.ALWAYS);
         GridPane.setHalignment(topBar,HPos.RIGHT);
-        MaterialDesignIconView close = new MaterialDesignIconView(MaterialDesignIcon.WINDOW_CLOSE);
-
+        MaterialDesignIconView close = new MaterialDesignIconView(MaterialDesignIcon.CLOSE);
         MaterialDesignIconView fullscreen = new MaterialDesignIconView(MaterialDesignIcon.WINDOW_MAXIMIZE);
         MaterialDesignIconView hide = new MaterialDesignIconView(MaterialDesignIcon.WINDOW_MINIMIZE);
         GridPane.setVgrow(close,Priority.ALWAYS);

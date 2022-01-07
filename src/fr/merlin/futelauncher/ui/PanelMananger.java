@@ -36,7 +36,9 @@ public class PanelMananger {
         this.stage.show();
 
         this.layout = new GridPane();
-        this.layout.setStyle(AriLibFX.setResponsiveBackground("https://png.pngtree.com/thumb_back/fh260/background/20190828/pngtree-dark-vector-abstract-background-image_302715.jpg"));
+        this.layout.setStyle("-fx-background-image: url('"+"https://cdn.pixabay.com/photo/2020/01/30/14/34/fantastic-4805593_1280.jpg"+"');"
+                +"-fx-backgound-repeat: skretch;"+"-fx-backgound-position: center center;"
+                +"-fx-background-size: cover;");
         this.stage.setScene(new Scene(this.layout));
 
         RowConstraints topPanelContrains = new RowConstraints();
